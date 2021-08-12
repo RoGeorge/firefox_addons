@@ -2,7 +2,6 @@
 Some firefox extensions inspired from<br>
 https://github.com/mpascucci/firefox_extensions
 <br>
-<br>
 <pre>
 Firefox add-ons to
     - Google Stackoverflow with 'gs', or
