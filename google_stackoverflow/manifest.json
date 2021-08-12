@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "name": "Google Stackoverflow",
+  "version": "1.0",
+  
+  "description": "Start with 'gs' in the address bar to search Stackoverflow using Google",
+  
+  "icons": {
+    "48": "icons/48px-stackoverflow-quick-search.png",
+    "96": "icons/96px-stackoverflow-quick-search.png",
+    "32": "icons/32px-stackoverflow-quick-search.png",
+    "128": "icons/128px-stackoverflow-quick-search.png"
+  },
+  
+  "omnibox": {
+    "keyword": "gs"
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "google_stackoverflow@rogeorge.github.io"
+    }
+  },
+  
+  "background": {
+    "scripts": [
+      "google_stackoverflow.js"
+    ]
+  }
+}

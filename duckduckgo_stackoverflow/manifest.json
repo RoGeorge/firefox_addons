@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "name": "DuckDuckGo Stackoverflow",
+  "version": "1.0",
+  
+  "description": "Start with 'ds' in the address bar to search Stackoverflow using DuckDuckGo",
+  
+  "icons": {
+    "48": "icons/48px-stackoverflow-quick-search.png",
+    "96": "icons/96px-stackoverflow-quick-search.png",
+    "32": "icons/32px-stackoverflow-quick-search.png",
+    "128": "icons/128px-stackoverflow-quick-search.png"
+  },
+  
+  "omnibox": {
+    "keyword": "ds"
+  },
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "duckduckgo_stackoverflow@rogeorge.github.io"
+    }
+  },
+  
+  "background": {
+    "scripts": [
+      "duckduckgo_stackoverflow.js"
+    ]
+  }
+}
