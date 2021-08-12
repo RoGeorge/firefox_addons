@@ -26,6 +26,23 @@ For developing only:
     - click on 'Load Temporary Add-on...'
     - browse to specific add-on directory
     - select any file, then click 'Open'.
+
+    
+To load the (unsigned) add-ons from a local file
+    - Firefox Extended Support Release (ESR), Firefox Developer Edition
+        and Nightly versions of Firefox will allow you to override
+        the setting to enforce the extension signing requirement,
+        by changing the preference xpinstall.signatures.required 
+        to false in the Firefox Configuration Editor (about:config page).        
+    - To override the language pack signing requirement,
+        you would set the preference extensions.langpacks.signatures.required
+        to false. There are also special unbranded versions of Firefox
+        that allow this override. See the MozillaWiki article,
+        Add-ons/Extension Signing for more information.
+    - zip the content of an add-on folder (only the content, without the folder)
+    - in about:addons click the 'Tools for all add-ons' settings wheel
+    - click 'Install Add-on From File...' and browse to the zip file
+    
     
 For publishing a Firefox Extension (add-on) in the Firefox repository:
     - ???
